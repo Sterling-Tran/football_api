@@ -1,0 +1,23 @@
+[33mcommit 01a53b48e0b67b83abe0d3c7cb17ab8aa8d47e4e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 19:42:57 2025 +0700
+
+    create model player to create table player in database
+
+[33mcommit a69731b18db5cc5edf054ddae7c7bfc41475ccf4[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 19:29:24 2025 +0700
+
+    install better errors and binding of caller into developemt group
+
+[33mcommit 236c18d7adb9184f57457183381c75e30b672a64[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 18:24:36 2025 +0700
+
+    add username and password into dev and test enviroment in database.yml
+
+[33mcommit 4080b52762e3808a223d46a883a59017c158c754[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 18:01:35 2025 +0700
+
+    init project
