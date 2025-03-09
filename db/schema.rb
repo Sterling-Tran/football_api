@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_03_07_143557) do
+ActiveRecord::Schema[8.0].define(version: 2025_03_09_174029) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -21,12 +21,39 @@ ActiveRecord::Schema[8.0].define(version: 2025_03_07_143557) do
     t.integer "score2"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "stadium_id"
   end
 
   create_table "players", force: :cascade do |t|
     t.string "name"
     t.integer "number"
     t.integer "position"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "referees", force: :cascade do |t|
+    t.string "name"
+    t.integer "age"
+    t.string "experience"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "stadia", force: :cascade do |t|
+    t.string "name"
+    t.integer "capacity"
+    t.string "location"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "teams", force: :cascade do |t|
+    t.string "full_name"
+    t.string "short_name"
+    t.integer "founded"
+    t.string "head_coach"
+    t.string "president"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

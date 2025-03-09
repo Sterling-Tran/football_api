@@ -51,3 +51,5 @@ end
 gem "better_errors", "~> 2.10", :group => :development
 
 gem "binding_of_caller", "~> 1.0", :group => :development
+
+gem "faker", "~> 3.5"

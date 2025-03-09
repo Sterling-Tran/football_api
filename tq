@@ -1,0 +1,89 @@
+[33mcommit 7757c5b94edcc1df5e0470a29c23e8cc585ad3c7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mlearn/controller-and-routing[m[33m, [m[1;31morigin/learn/controller-and-routing[m[33m)[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Sat Mar 8 09:25:55 2025 +0700
+
+    add code to handle controller team
+
+[33mcommit 1a757b9e9a90c326deb83af7067a6e30d5db938b[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Sat Mar 8 09:13:28 2025 +0700
+
+    create route controller model Team
+
+[33mcommit bee8ed57289284ff9a14050626af13eb5415a1bb[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Sat Mar 8 08:47:01 2025 +0700
+
+    create matches controller and routing
+
+[33mcommit a456e3f53788227f67acb15d4c26201920722414[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 22:09:26 2025 +0700
+
+    add some action into match controller to control match
+
+[33mcommit ff4cb35dd62a1e267015e4a2c769de2a1414828f[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 22:01:29 2025 +0700
+
+    create route player to map index player
+
+[33mcommit 86fb5b9b2b2373933fe9f58911980a53dd875065[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 21:57:25 2025 +0700
+
+    add index action into player controller to handle index
+
+[33mcommit 42d2fc2048d6292af82a776be3927ae8ee284127[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 21:55:24 2025 +0700
+
+    create player controller to control player
+
+[33mcommit 008b35d5d2712a4c4c55e094267df64c2d4d47bb[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 21:47:29 2025 +0700
+
+    add stadium_id into match to manage both
+
+[33mcommit db0dbdc8b0ebe7dc2c418310786e014d3ab06f1d[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 21:42:45 2025 +0700
+
+    create referee to manage referee
+
+[33mcommit c3432c2f4fcc9746251abb20e19d256df55b2912[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 21:40:54 2025 +0700
+
+    create stadium model to manage stadium
+
+[33mcommit bb0e349a6b0b9029b7804222ec3ac48403faf46b[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 21:37:15 2025 +0700
+
+    create match model to manage match
+
+[33mcommit 01a53b48e0b67b83abe0d3c7cb17ab8aa8d47e4e[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 19:42:57 2025 +0700
+
+    create model player to create table player in database
+
+[33mcommit a69731b18db5cc5edf054ddae7c7bfc41475ccf4[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 19:29:24 2025 +0700
+
+    install better errors and binding of caller into developemt group
+
+[33mcommit 236c18d7adb9184f57457183381c75e30b672a64[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 18:24:36 2025 +0700
+
+    add username and password into dev and test enviroment in database.yml
+
+[33mcommit 4080b52762e3808a223d46a883a59017c158c754[m
+Author: Sterling Tran <devtranminhtu@gmail.com>
+Date:   Fri Mar 7 18:01:35 2025 +0700
+
+    init project
