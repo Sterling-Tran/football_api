@@ -1,13 +1,13 @@
 Rails.application.routes.draw do
-  get "teams/index" => "teams#index"
-  get "teams/create" => "teams#create"
-  get "teams/show" => "teams#show"
-  get "teams/destroy" => "teams#destroy"
-  get "teams/update" => "teams#update"
-  get "matches/index" => "matches#index"
-  get "matches/show" => "matches#show"
-  get "matches/create" => "matches#create"
-  get "matches/update" => "matches#update"
+  get "teams/" => "teams#index"
+  post "teams/create" => "teams#create"
+  get "teams/:id" => "teams#show"
+  delete "teams/:id" => "teams#destroy"
+  patch "teams/:id" => "teams#update"
+  get "matches/" => "matches#index"
+  get "matches/:id" => "matches#show"
+  post "matches/create" => "matches#create"
+  patch "matches/:id" => "matches#update"
   get "/player" => "player#index", as: :player
 
   # root "posts#index"
