@@ -21,7 +21,7 @@ class MatchesController < ApplicationController
 
   def update
     @match = Match.find(params[:id])
-    @data = 
+    # @data =
   end
 
 
@@ -29,6 +29,4 @@ class MatchesController < ApplicationController
     @match = Match.find(params[:id])
     @match.destroy
   end
-
-  
 end
